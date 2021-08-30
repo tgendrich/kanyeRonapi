@@ -1,0 +1,15 @@
+C:\Users\Thomas\source\repos\APIstart\APIstart\bin\Debug\netcoreapp3.1\APIstart.exe
+C:\Users\Thomas\source\repos\APIstart\APIstart\bin\Debug\netcoreapp3.1\APIstart.deps.json
+C:\Users\Thomas\source\repos\APIstart\APIstart\bin\Debug\netcoreapp3.1\APIstart.runtimeconfig.json
+C:\Users\Thomas\source\repos\APIstart\APIstart\bin\Debug\netcoreapp3.1\APIstart.runtimeconfig.dev.json
+C:\Users\Thomas\source\repos\APIstart\APIstart\bin\Debug\netcoreapp3.1\APIstart.dll
+C:\Users\Thomas\source\repos\APIstart\APIstart\bin\Debug\netcoreapp3.1\APIstart.pdb
+C:\Users\Thomas\source\repos\APIstart\APIstart\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Thomas\source\repos\APIstart\APIstart\obj\Debug\netcoreapp3.1\APIstart.csproj.AssemblyReference.cache
+C:\Users\Thomas\source\repos\APIstart\APIstart\obj\Debug\netcoreapp3.1\APIstart.AssemblyInfoInputs.cache
+C:\Users\Thomas\source\repos\APIstart\APIstart\obj\Debug\netcoreapp3.1\APIstart.AssemblyInfo.cs
+C:\Users\Thomas\source\repos\APIstart\APIstart\obj\Debug\netcoreapp3.1\APIstart.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\source\repos\APIstart\APIstart\obj\Debug\netcoreapp3.1\APIstart.csproj.CopyComplete
+C:\Users\Thomas\source\repos\APIstart\APIstart\obj\Debug\netcoreapp3.1\APIstart.dll
+C:\Users\Thomas\source\repos\APIstart\APIstart\obj\Debug\netcoreapp3.1\APIstart.pdb
+C:\Users\Thomas\source\repos\APIstart\APIstart\obj\Debug\netcoreapp3.1\APIstart.genruntimeconfig.cache
