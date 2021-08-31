@@ -41,8 +41,8 @@ namespace APIstart
 
             }
 
-            var weatherURLLINK = "pro.openweathermap.org / data / 2.5 / forecast / hourly ? zip =35214,us&appid =12fcd356be15f7b1df0bb2ea8734367f";
-            var weatherResponce = client.GetAsync(weatherURLLINK).Result;
+            //var weatherURLLINK = "pro.openweathermap.org / data / 2.5 / forecast / hourly ? zip =35214,us&appid =12fcd356be15f7b1df0bb2ea8734367f";
+            //var weatherResponce = client.GetAsync(weatherURLLINK).Result;
 
 
 
