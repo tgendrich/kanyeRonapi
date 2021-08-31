@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
@@ -41,15 +42,27 @@ namespace APIstart
 
             }
 
-            //var weatherURLLINK = "pro.openweathermap.org / data / 2.5 / forecast / hourly ? zip =35214,us&appid =12fcd356be15f7b1df0bb2ea8734367f";
-            //var weatherResponce = client.GetAsync(weatherURLLINK).Result;
+            //var weatherURLLINK = "https://pro.openweathermap.org/data/2.5/forecast/hourly?zip=35214,us&appid=12fcd356be15f7b1df0bb2ea8734367f";
+            //var weatherResponce = client.GetStringAsync(weatherURLLINK).Result;
+            //Console.WriteLine(weatherResponce);
 
-
+            string key = File.ReadAllText("appsettings.JSON");
+            string APIkey = JObject.Parse(key).GetValue("key").ToString();
+            Console.WriteLine("Please enter your zipcode: ");
+            var userZipInput = Console.ReadLine();
+            var apiCall = $"https://pro.openweathermap.org/data/2.5/fweather?zip={userZipInput}&units=imperial&appid={APIkey}";
+            Console.WriteLine("This is the temp of your area: " + GetTemp(apiCall));
 
 
         }
 
-
+        public static double GetTemp(string APIcall)
+        {
+            var client = new HttpClient();
+            var responce = client.GetStringAsync(APIcall).Result;
+            var temp = double.Parse(JObject.Parse(responce)["main"]["temp"].ToString());
+            return temp;
+        }
         
         
     }
